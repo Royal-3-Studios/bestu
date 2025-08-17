@@ -4,9 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden">
-      {/* Section 1 – Logo and Intro */}
       <section className="w-full min-h-screen flex flex-col lg:flex-row px-6 py-8">
-        {/* Image section (photo of DJ Pappas) */}
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div className="w-full relative min-h-[500px] md:min-h-[700px] lg:h-full">
             <Image
@@ -19,7 +17,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Text Content Section */}
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div className="pt-6 pl-6 w-full flex flex-col justify-center max-w-xl text-center lg:text-left space-y-6">
             {/* <Image
