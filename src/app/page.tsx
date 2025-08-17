@@ -10,7 +10,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div className="w-full relative min-h-[500px] md:min-h-[700px] lg:h-full">
             <Image
-              src="/pappas.jpg"
+              src="/pappas.png"
               alt="pappas"
               fill
               className="object-cover rounded-md"
