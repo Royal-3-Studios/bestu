@@ -4,43 +4,28 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden">
-      <section className="w-full min-h-screen flex flex-col lg:flex-row px-6 py-8">
-        <div className="w-full lg:w-1/2 flex items-center justify-center">
-          <div className="w-full relative min-h-[500px] md:min-h-[700px] lg:h-full">
-            <Image
-              src="/pappas.png"
-              alt="pappas"
-              fill
-              className="object-cover rounded-md"
-              priority
-            />
-          </div>
-        </div>
-
-        <div className="w-full lg:w-1/2 flex items-center justify-center">
-          <div className="pt-6 pl-6 w-full flex flex-col justify-center max-w-xl text-center lg:text-left space-y-6">
-            {/* <Image
-              src="/BestULogo_v5.png"
-              alt="Best U Logo"
-              width={200}
-              height={200}
-              className="mx-auto lg:mx-0"
-            /> */}
-            <h1 className="text-6xl font-bold text-blue-800 text-center">
-              <p className="text-2xl text-primary">
-                <i>Be The</i>
-              </p>
-              <p>BEST U</p>
-            </h1>
-            <p className="text-gray-700 text-lg">
+      {/* Section 2 – About DJ */}
+      <section className="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6 py-12 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat">
+        <Card className="bg-white/70 p-12 min-w-4xl text-center lg:text-left space-y-6">
+          <div className="pt-6 pl-6 w-full flex flex-col justify-center text-center lg:text-left space-y-6">
+            <div className="flex justify-center">
+              <Image
+                src="/BestULogo_v5.png"
+                alt="Best U Logo"
+                width={200}
+                height={200}
+                className="mx-auto lg:mx-0"
+              />
+            </div>
+            <p className="text-gray-700 text-lg text-center">
               Exploring, discovering, creating and living your best life.
             </p>
-            <p className="italic text-md text-blue-600">
+            <p className="italic text-md text-blue-600 text-center">
               “Tell me, what is it you plan to do with your one wild and
               precious life?”
               <br />— Mary Oliver
             </p>
-            <p className="text-gray-800">
+            <p className="text-gray-800 text-center">
               At Best U Consulting, we believe your life deserves to be lived
               with intention— whatever that means for you. There’s no
               one-size-fits-all version of happiness, but there are things you
@@ -51,46 +36,60 @@ export default function Home() {
               design—and truly live— your one wild and precious life.
             </p>
           </div>
-        </div>
+        </Card>
       </section>
 
-      {/* Section 2 – About DJ */}
-      <section className="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6 py-12 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat">
-        <Card className="bg-white/70 p-12 max-w-3xl text-center lg:text-left space-y-6">
-          <h2 className="text-3xl font-semibold text-blue-800 text-center">
-            About Me
-          </h2>
-          <b className="space-y-10">
-            <p className="text-gray-800 text-bold">
-              I’m Donna Jeane Hitchcock Pappas—but most people call me DJ. I’m a
-              Licensed Clinical Mental Health Counselor in North Carolina with
-              over 30 years of experience walking alongside people through both
-              the pain and promise of life.
-              <br />
-              <br />
-              My roots are in grief and loss counseling, so I deeply understand
-              that life’s challenges can be complex, emotional, and
-              transformative.
-            </p>
-            <p className="text-gray-800">
-              At this chapter in my own life, I’ve felt a calling to shift
-              toward something new— something that speaks to possibility. That’s
-              what led me to create Best U Consulting.
-            </p>
-            <p className="text-gray-800">
-              My work now focuses on helping adults pause, reflect, and consider
-              what’s next. I guide individuals, small groups, and larger
-              audiences in designing a life that feels more intentional,
-              aligned, and meaningful—not in some distant ideal, but right here
-              in the middle of everyday life.
-            </p>
-            <p className="text-gray-800">
-              I believe happier is something we can create—and more importantly,
-              it&lsquos often already present within our lives, waiting to be
-              noticed, nurtured, and reclaimed.
-            </p>
-          </b>
-        </Card>
+      <section className="w-full min-h-screen flex flex-col lg:flex-row items-stretch gap-8 px-6 py-8">
+        {/* Left: Image */}
+        <div className="w-full lg:w-1/2 flex items-center">
+          <div className="relative w-full min-h-[500px] md:min-h-[700px] lg:min-h-[720px]">
+            <Image
+              src="/pappas.png"
+              alt="Donna Jeane Pappas"
+              fill
+              className="object-cover rounded-md"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Right: About Me */}
+        <div className="w-full lg:w-1/2 flex">
+          <div className="my-auto w-full max-w-2xl mx-auto lg:mx-0 p-8 bg-white/90 text-center lg:text-left space-y-8">
+            <h2 className="text-3xl font-semibold text-blue-800">About Me</h2>
+
+            <div className="space-y-6 text-gray-800">
+              <p className="">
+                I’m Donna Jeane Hitchcock Pappas—but most people call me DJ. I’m
+                a Licensed Clinical Mental Health Counselor in North Carolina
+                with over 30 years of experience walking alongside people
+                through both the pain and promise of life.
+              </p>
+              <p>
+                My roots are in grief and loss counseling, so I deeply
+                understand that life’s challenges can be complex, emotional, and
+                transformative.
+              </p>
+              <p>
+                At this chapter in my own life, I’ve felt a calling to shift
+                toward something new—something that speaks to possibility.
+                That’s what led me to create Best U Consulting.
+              </p>
+              <p>
+                My work now focuses on helping adults pause, reflect, and
+                consider what’s next. I guide individuals, small groups, and
+                larger audiences in designing a life that feels more
+                intentional, aligned, and meaningful—not in some distant ideal,
+                but right here in the middle of everyday life.
+              </p>
+              <p>
+                I believe happier is something we can create—and more
+                importantly, it’s often already present within our lives,
+                waiting to be noticed, nurtured, and reclaimed.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Section 3 – Recalibration */}
