@@ -121,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 – Contact */}
-      <section className="w-full h-[30vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
+      <section className="w-full h-[40vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
         <h2 className="text-2xl font-semibold text-blue-800 text-center">
           <p className="mb-4">Find Your Best U Today!</p>
         </h2>
@@ -134,10 +134,16 @@ export default function Home() {
             djpappas@bestuconsulting.com
           </a>
         </p>
-        <p>
+        <p className="text-center">
           <br />
-          Offering individual sessions, small group sessions & presentations
+          Offering individual sessions, small group sessions & presentations.
+        </p>
+        <p className="text-lg font-semibold text-blue-800 text-center">
+          <br />
           Explore, discover, create and live your best life.
+          <br />
+          <br />
+          <br />
         </p>
       </section>
     </div>
