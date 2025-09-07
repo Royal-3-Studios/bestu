@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 – Contact */}
-      <section className="w-full h-[50vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
+      <section className="w-full h-[30vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
         <h2 className="text-2xl font-semibold text-blue-800 text-center">
           <p className="mb-4">Find Your Best U Today!</p>
         </h2>
