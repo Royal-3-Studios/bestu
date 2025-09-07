@@ -6,34 +6,35 @@ export default function Home() {
     <div className="w-full overflow-x-hidden">
       {/* Section 2 – About DJ */}
       <section className="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6 py-12 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat">
-        <Card className="bg-white/70 p-12 min-w-4xl text-center lg:text-left space-y-6">
+        <Card className="bg-white/70 p-12 pt-1 min-w-xl max-w-4xl text-center lg:text-left space-y-6">
           <div className="pt-6 pl-6 w-full flex flex-col justify-center text-center lg:text-left space-y-6">
             <div className="flex justify-center">
               <Image
                 src="/BestULogo_v5.png"
                 alt="Best U Logo"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 className="mx-auto lg:mx-0"
               />
             </div>
             <p className="text-gray-700 text-lg text-center">
-              Exploring, discovering, creating and living your best life.
+              At Best U Consulting, we believe your life deserves to be lived
+              with intentio.
             </p>
             <p className="italic text-md text-blue-600 text-center">
-              “Tell me, what is it you plan to do with your one wild and
-              precious life?”
-              <br />— Mary Oliver
+              Whatever that means for you.
             </p>
             <p className="text-gray-800 text-center">
-              At Best U Consulting, we believe your life deserves to be lived
-              with intention— whatever that means for you. There’s no
-              one-size-fits-all version of happiness, but there are things you
-              can do to experience more joy, meaning, and fulfillment.
+              There’s no one-size-fits-there are many versions of happiness.
               <br />
               <br />
-              At Best U, we help you build the tools and strategies to
-              design—and truly live— your one wild and precious life.
+              You can experience more joy, meaning, and fulfillment.
+              <br />
+              <br />
+              Along with enhancing the gratitude of what you have. At Best U, we
+              help you build the tools and strategies to design and truly live
+              your one wild and precious life.
+              <br />
             </p>
           </div>
         </Card>
@@ -93,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* Section 3 – Recalibration */}
-      <section className="w-full min-h-screen flex items-center justify-center bg-blue-50 px-6 py-12 ">
+      <section className="w-full h-[70vh] flex items-center justify-center bg-blue-50 px-6 py-12 ">
         <div className="max-w-3xl text-center lg:text-left space-y-6">
           <blockquote className="italic text-blue-700 text-lg">
             “Life is like a compass—we all require recalibration sometimes. It
@@ -123,10 +124,9 @@ export default function Home() {
       </section>
 
       {/* Section 4 – Contact */}
-      <section className="w-full min-h-[50vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
+      <section className="w-full h-[50vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
         <h2 className="text-2xl font-semibold text-blue-800 text-center">
           <p className="mb-4">Find Your Best U Today!</p>
-          Contact Me
         </h2>
         <p className="text-gray-800 mt-4">
           Email me at{" "}
@@ -136,6 +136,10 @@ export default function Home() {
           >
             dj.pappas@bestu.com
           </a>
+        </p>
+        <p>
+          Offering individual sessions, small group sessions & presentations
+          Explore, discover, create and live your best life.
         </p>
       </section>
     </div>
