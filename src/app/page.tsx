@@ -131,7 +131,7 @@ export default function Home() {
             href="mailto:dj.pappas@bestu.com"
             className="text-blue-600 underline"
           >
-            bestuconsulting.com
+            djpappas@bestuconsulting.com
           </a>
         </p>
         <p>
