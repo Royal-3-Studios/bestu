@@ -138,6 +138,7 @@ export default function Home() {
           </a>
         </p>
         <p>
+          <br />
           Offering individual sessions, small group sessions & presentations
           Explore, discover, create and live your best life.
         </p>
