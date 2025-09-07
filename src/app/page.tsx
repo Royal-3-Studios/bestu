@@ -17,24 +17,21 @@ export default function Home() {
                 className="mx-auto lg:mx-0"
               />
             </div>
-            <p className="text-gray-700 text-lg text-center">
+
+            <p>
+              {"    "}
               At Best U Consulting, we believe your life deserves to be lived
-              with intentio.
+              with intention. Whatever that means for you. There’s no
+              one-size-fits-there are many versions of happiness. You can
+              experience more joy, meaning, and fulfillment. Along with
+              enhancing the gratitude of what you have. At Best U, we help you
+              build the tools and strategies to design and truly live your one
+              wild and precious life.
+              <br />
             </p>
-            <p className="italic text-md text-blue-600 text-center">
-              Whatever that means for you.
-            </p>
-            <p className="text-gray-800 text-center">
-              There’s no one-size-fits-there are many versions of happiness.
-              <br />
-              <br />
-              You can experience more joy, meaning, and fulfillment.
-              <br />
-              <br />
-              Along with enhancing the gratitude of what you have. At Best U, we
-              help you build the tools and strategies to design and truly live
-              your one wild and precious life.
-              <br />
+            <p className="italic text-md text-center text-blue-700">
+              “Tell me, what is it you plan to do with your one wild and
+              precious life?” — Mary Oliver
             </p>
           </div>
         </Card>
