@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full overflow-x-hidden text-sm sm:text-lg">
       {/* Section 2 – About DJ */}
       <section className="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6 py-12 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat">
-        <Card className="bg-white/70 p-12 pt-1 min-w-xl max-w-4xl text-center lg:text-left space-y-6">
-          <div className="pt-6 pl-6 w-full flex flex-col justify-center text-center lg:text-left space-y-6">
+        <Card className="bg-white/70 p-12 pt-1 max-w-4xl text-center lg:text-left space-y-6">
+          <div className="pt-2 sm:pt-6 pl-0 sm:pl-6 w-full flex flex-col justify-center text-center lg:text-left space-y-2 sm:space-y-6">
             <div className="flex justify-center">
               <Image
                 src="/BestULogo_v5.png"
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 flex items-center">
           <div className="relative w-full min-h-[500px] md:min-h-[700px] lg:min-h-[720px]">
             <Image
-              src="/pappas.png"
+              src="/dj_2.png"
               alt="Donna Jeane Pappas"
               fill
               className="object-cover rounded-md"
@@ -53,10 +53,9 @@ export default function Home() {
 
         {/* Right: About Me */}
         <div className="w-full lg:w-1/2 flex">
-          <div className="my-auto w-full max-w-2xl mx-auto lg:mx-0 p-8 bg-white/90 text-center lg:text-left space-y-8">
+          <div className="my-auto w-full max-w-2xl mx-auto lg:mx-0 p-2 sm:p-8 bg-white/90 text-center text-sm sm:text-lg lg:text-left space-y-4 sm:space-y-8">
             <h2 className="text-3xl font-semibold text-blue-800">About Me</h2>
-
-            <div className="space-y-6 text-gray-800">
+            <div className="space-y-4 sm:space-y-6 text-gray-800 text-sm sm:text-lg">
               <p className="">
                 I’m Donna Jeane Hitchcock Pappas—but most people call me DJ. I’m
                 a Licensed Clinical Mental Health Counselor in North Carolina
@@ -91,9 +90,9 @@ export default function Home() {
       </section>
 
       {/* Section 3 – Recalibration */}
-      <section className="w-full h-[70vh] flex items-center justify-center bg-blue-50 px-6 py-12 ">
+      <section className="w-full h-[90vh] sm:h-[70vh] flex items-center justify-center bg-blue-50 px-6 py-12 ">
         <div className="max-w-3xl text-center lg:text-left space-y-6">
-          <blockquote className="italic text-blue-700 text-lg">
+          <blockquote className="italic text-blue-700 text-sm sm:text-lg">
             “Life is like a compass—we all require recalibration sometimes. It
             is a gift of opportunity.”
             <br />— Unknown
@@ -121,11 +120,11 @@ export default function Home() {
       </section>
 
       {/* Section 4 – Contact */}
-      <section className="w-full h-[40vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t">
+      <section className="w-full sm:h-[40vh] flex flex-col items-center justify-center bg-white px-6 py-12 border-t text-sm sm:text-lg">
         <h2 className="text-2xl font-semibold text-blue-800 text-center">
           <p className="mb-4">Find Your Best U Today!</p>
         </h2>
-        <p className="text-gray-800 mt-4">
+        <p className="text-gray-800 text-center mt-4">
           Email me at{" "}
           <a
             href="mailto:dj.pappas@bestu.com"
